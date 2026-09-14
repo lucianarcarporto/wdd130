@@ -1,3 +1,8 @@
+:root {
+    --cor-principal: darkblue;
+    --espacamento: 1rem;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
@@ -7,7 +12,7 @@ body {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--cor-principal);
     padding: 0;
 }
 
@@ -22,7 +27,7 @@ main {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--cor-principal);
 }
 
 main img {
@@ -39,10 +44,10 @@ p {
 
 aside {
     width: 20rem;
-    margin: 1rem;
+    margin: var(--espacamento);
     border: 1px solid rgb(0 0 0/ 0.2);
     /* 1️⃣ */
-    padding: 1rem;
+    padding: var(--espacamento);
     background-color: #eee;
     color: #333;
     text-align: center;
