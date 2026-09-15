@@ -44,11 +44,20 @@ article {
     text-decoration: none;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 header {
     display: grid;
     grid-template-columns: 120px 1fr;
     align-items: center;
     padding: 10px;
+    background: var(--cor-secundaria);
+}
+
+header nav a {
+    color: var(--cor-destaque2);
 }
 
 header nav ul {
