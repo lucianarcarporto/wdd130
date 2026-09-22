@@ -53,7 +53,7 @@ header {
 }
 
 header nav a {
-    color: var(--cor-destaque2);
+    color: var(--cor-destaque1);
 }
 
 header nav ul {
