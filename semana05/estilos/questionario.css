@@ -31,6 +31,7 @@ form {
 
 label {
     margin-top: 15px;
+    font-weight: bold;
 }
 
 input,
@@ -44,4 +45,15 @@ button {
     margin-top: 15px;
     background-color: #3a3ab8;
     color: #fff;
+}
+
+pre {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    margin: 3px auto;
+    font-family: monospace;
+    font-size: 12px;
+    width: 75%;
 }
