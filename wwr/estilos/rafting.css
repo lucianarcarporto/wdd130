@@ -152,3 +152,86 @@ footer {
     height: 100px;
     object-fit: cover;
 }
+
+.funcionarios {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.funcionarios h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.funcionarios img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+
+.funcionarios figure:nth-of-type(3) img {
+    object-position: center top;
+}
+
+.formulario-contato {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.formulario-contato form {
+    display: grid;
+    gap: 10px;
+}
+
+.formulario-contato fieldset {
+    padding: 10px;
+}
+
+.formulario-contato > form > label {
+    display: block;
+    margin-top: 10px;
+}
+
+.formulario-contato input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+.formulario-contato button {
+    padding: 10px;
+    background-color: var(--cor-secundaria);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.formulario-contato input[type="text"],
+.formulario-contato input[type="email"] {
+    padding: 6px;
+}
+
+.formulario-contato textarea {
+    padding: 6px;
+    height: 70px;
+}
+
+.formulario-contato fieldset {
+    margin-bottom: 12px;
+    padding: 16px;
+}
+
+main > h1 {
+    margin-bottom: 0;
+}
+
+.contato-info h2 {
+    margin-top: 0;
+}
+
+.contato-info {
+    margin-top: 0;
+    padding-top: 0;
+}
