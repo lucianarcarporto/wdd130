@@ -187,10 +187,6 @@ footer {
     gap: 10px;
 }
 
-.formulario-contato fieldset {
-    padding: 10px;
-}
-
 .formulario-contato > form > label {
     display: block;
     margin-top: 10px;
@@ -203,7 +199,7 @@ footer {
 .formulario-contato button {
     padding: 10px;
     background-color: var(--cor-secundaria);
-    color: white;
+    color: var(--cor-destaque1);
     font-weight: bold;
     margin-top: 10px;
 }
