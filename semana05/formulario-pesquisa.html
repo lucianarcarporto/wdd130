@@ -4,32 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pesquisa de Usuário</title>
+    <link rel="stylesheet" href="estilos/formulario-pesquisa.css">
 </head>
 
 <body>
+    <header>
+        <h1>WDD 130 | Formulário HTML - Pesquisa de Usuários</h1>
+    </header>
+
     <form>
-        <label for="nomecompleto">Nome Completo:</label>
-        <input type="text" id="nome-completo" name="nome-completo" required>
-        <label for="emaildousuario">E-mail:</label>
-        <input type="email" id="email-do-usuario" name="email-do-usuario" required>
+
+        <fieldset>
+            <legend>Informações de Contato</legend>
+
+            <div class="item-formulario coluna2">
+                <label for="nomecompleto">Nome Completo:</label>
+                <input type="text" id="nomecompleto" name="nome-completo" required>
+            </div>
+
+            <div class="item-formulario coluna2">
+                <label for="emaildousuario">E-mail:</label>
+                <input type="email" id="emaildousuario" name="email-do-usuario" required>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Perguntas</legend>
+
+
+            <div class="item-formulario coluna1">
+
+                <label for="quantidade">Qual é o seu navegador favorito?</label>
+                <select name="quantidade" id="quantidade">
+                    <option value="1">Chrome</option>
+                    <option value="2">Safari</option>
+                    <option value="3">Edge</option>
+                    <option value="4">Brave</option>
+                </select>
+            </div>
+
+            <div class="item-formulario coluna1">
+                <label for="pet">Você tem um bichinho de estimação?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+
+            <div class="item-formulario">
+                <label for="feedback">Liste os lugares onde você morou:</label>
+                <textarea id="feedback" name="feedback" rows="4"
+                  placeholder="Stillwater Flórida, Amsterdã Holanda, Tibuktu Mali"></textarea>
+
+            </div>
+
+        </fieldset>
+        <button type="submit">Enviar Pesquisa</button>
 
     </form>
 
-    <label for="quantidade">Qual é o seu navegador de internet favorito?</label>
-    <select name="quantidade" id="quantidade">
-        <option value="1">Chrome</option>
-        <option value="2">Safari</option>
-        <option value="3">Edge</option>
-        <option value="4">Brave</option>
-    </select>
-    <label for="pet" Você tem um bichinho de estimação?</label>
-        <input type="checkbox" id="pet" name="pet">
-        <label for="feedback">Liste os lugares onde você morou:</label>
-        <textarea id="feedback" name="feedback" rows="4"
-          placeholder="Stillwater Flórida, Amsterdã Holanda, Tibuktu Mali"></textarea>
-
-        <button type="submit">Enviar Enquete</button>
+    <footer>
+        <p>© 2026 | Formulário HTML - Atividade de Pesquisa de Usuários | Luciana Porto</p>
+    </footer>
 
 </body>
 
